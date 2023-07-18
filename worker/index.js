@@ -1,4 +1,4 @@
-const keys = request('./keys')
+const keys = require('./keys')
 const redis = require('redis')
 
 // 创建一个 redis 客户端
